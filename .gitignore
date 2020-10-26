@@ -1,0 +1,6 @@
+.idea/
+.DS_Store
+out/
+web/WEB-INF/classes/*
+target/
+/src/main/java/com/example/util/Mail.java

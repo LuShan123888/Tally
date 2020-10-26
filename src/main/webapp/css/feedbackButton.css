@@ -1,0 +1,31 @@
+.feedback {
+    position: fixed;
+    right: 1%;
+    bottom: 30%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px #165645;
+}
+
+.feedback:active {
+    -webkit-transform: scale(.95);
+    transform: scale(.95);
+}
+
+.feedback a {
+    display: flex;
+    justify-content: center; /*水平居中*/
+    align-items: center; /*垂直居中*/
+}
+
+.feedback img {
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+    transition: width 0.3s, height 0.3s;
+}
+
+.feedback img:hover {
+    height: 50px;
+    width: 50px;
+}

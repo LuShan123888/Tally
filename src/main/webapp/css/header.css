@@ -1,0 +1,112 @@
+.header {
+    width: 100%;
+    background-color: #08AEEA;
+    background-image: linear-gradient(90deg, #08AEEA 0%, #2AF598 100%);
+    height: 50px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu img {
+    margin: 0 10px;
+    height: 40px;
+}
+
+.menu a {
+    padding: 0 10px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    float: left;
+    color: white;
+    font-size: 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transition: transform 80ms ease-in, background 0.5s;
+}
+
+.menu a:hover {
+    background: #07687f;
+}
+
+/*.menu a:active {*/
+/*    -webkit-transform: scale(.90);*/
+/*    transform: scale(.90);*/
+/*}*/
+
+.searchBar {
+    height: 100%;
+}
+
+.searchBar form {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.searchBar input[type=text] {
+    border: none;
+    height: 30px;
+    border-radius: 30px;
+    outline: none;
+    padding-left: 15px;
+    font-size: 15px;
+    width: 20vw;
+}
+
+.searchBar button {
+    border: none;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    cursor: pointer;
+    padding-left: 10px;
+    background: none;
+}
+
+.searchBar button img {
+    width: 30px;
+    height: 30px;
+    transition: transform 80ms ease-in, width 0.2s ease-out, height 0.2s ease-out;
+}
+
+.searchBar button img:hover {
+    width: 40px;
+    height: 40px;
+}
+
+.searchBar button img:active {
+    -webkit-transform: scale(.95);
+    transform: scale(.95);
+}
+
+.accountBar a {
+    margin-right: 20px;
+    float: right;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: transform 80ms ease-in, background 0.5s;
+}
+
+.accountBar a:hover {
+    background-color: #127853;
+}
+
+/*.accountBar a:active {*/
+/*    -webkit-transform: scale(.90);*/
+/*    transform: scale(.90);*/
+/*}*/

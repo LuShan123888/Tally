@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: auto;
+    font-family:Arial,SimHei, serif;
+}
+
+body {
+    font-family: Helvetica, serif;
+    background-image: linear-gradient(90deg, #08AEEA 0%, #2AF598 100%);
+    background-attachment: fixed;
+    background-size: 100%;
+    min-height: 100%;
+}
+
+@media (max-width: 800px) {
+    .menu a {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .accountBar a {
+        font-size: 18px;
+    }
+}

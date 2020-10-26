@@ -1,0 +1,134 @@
+
+.content {
+    overflow: hidden;
+    /*width: 768px;*/
+    /*max-width: 95%;*/
+    min-height: 480px;
+    margin: 10vh auto 5vh;
+    box-shadow: 0 3px 15px #165645;
+    width: 500px;
+    max-width: 90vw;
+    border-radius: 8px;
+}
+
+#welcomeContainer {
+    background-color: #08AEEA;
+    background-image: linear-gradient(90deg, #08AEEA 0%, #2AF598 100%);
+    font-size: 20px;
+    color: white;
+    height: 20vh;
+    max-height:250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    transition: opacity 0.6s ease-in;
+}
+
+#welcomeContainer span {
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 10px 0 0 0;
+    transition: all 80ms ease-in, background 0.5s;
+}
+
+.content form {
+    background: #ffffff;
+}
+
+.inputBar {
+    height: 10vh;
+    max-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.inputBar label {
+    font-size: 20px;
+    letter-spacing: 1px;
+    width:20%;
+}
+
+.inputBar input {
+    background: #eee;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    height: 50%;
+    padding-left: 15px;
+    outline: none;
+    width: 80%;
+}
+.inputBar select {
+    height: 50%;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    border-radius: 8px;
+    background: url("../img/arrow.png") no-repeat scroll right center #eee;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    width: 50px;
+    padding-left: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.suggestion {
+    color: rgba(0, 0, 0, 0.91);
+    text-align: center;
+    /*padding-top: 5%;*/
+}
+
+.suggestion label {
+    font-size: 20px;
+    letter-spacing:4px;
+}
+
+.suggestion textarea {
+    display: block;
+    background: #eeeeee;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    width: 80%;
+    margin: 4% auto 0;
+    outline: none;
+    padding-left: 15px;
+    padding-top: 15px;
+    height: 20vh;
+    max-height:250px;
+}
+
+.content input[type=submit] {
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: 1px solid #229e85;
+    background: #229e85;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 40px;
+    width: 30%;
+    transition: background-color 0.5s, color 0.5s, width 0.5s, transform 8ms ease-in;
+    outline: none;
+}
+
+.content input[type=submit]:hover {
+    cursor: pointer;
+    color: #FFFFFF;
+    width: 20%;
+}
+
+.content input[type=submit]:active {
+    -webkit-transform: scale(.95);
+    transform: scale(.95);
+}
