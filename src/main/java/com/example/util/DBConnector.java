@@ -7,7 +7,7 @@ import java.sql.DriverManager;
 public class DBConnector {
 
     private static final String driver = "com.mysql.jdbc.Driver";
-    private static final String url = "jdbc:mysql://localhost:3306/tally?serverTimezone=Asia/Shanghai&useSSL=false";
+    private static final String url = "jdbc:mysql://db:3306/tally?serverTimezone=Asia/Shanghai&useSSL=false";
     private static final String username = "tally";
     private static final String password = "tally";
     private static Connection con;
